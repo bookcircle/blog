@@ -5264,6 +5264,16 @@ background: url('../images/google.png') center no-repeat #C83D20;
 border: 1px solid #C83D20;
 }
 
+#sub-nav .social a.ren {
+background: url('../images/ren.png') center no-repeat #58a;
+border: 1px solid #58a;
+}
+
+#sub-nav .social a.app {
+background: url('../images/app.png') center no-repeat #C83D20;
+border: 1px solid #;
+}
+
 #sub-nav .social a.github {
 background: url('../images/github.png') center no-repeat #afb6ca;
 border: 1px solid #afb6ca;

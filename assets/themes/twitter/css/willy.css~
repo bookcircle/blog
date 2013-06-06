@@ -4831,7 +4831,7 @@ article h3 {
   border-bottom: 1px dashed #ddd;
   padding-bottom: 10px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .header-color {
@@ -5261,6 +5261,11 @@ border: 1px solid #55CFF8;
 
 #sub-nav .social a.google {
 background: url('../images/google.png') center no-repeat #C83D20;
+border: 1px solid #C83D20;
+}
+
+#sub-nav .social a.ren {
+background: url('../images/ren.png') center no-repeat #C83D20;
 border: 1px solid #C83D20;
 }
 
