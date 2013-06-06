@@ -4752,6 +4752,7 @@ a {
   background-color: transparent;
   border-color: #e1e1e1;
   border-right: 5px solid #33B5E5;
+  padding-right: 9px;
 }
 
 .visible-phone .nav-list > .active > a,
