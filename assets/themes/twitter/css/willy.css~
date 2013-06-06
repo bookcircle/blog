@@ -196,7 +196,7 @@ body {
   font-size: 14px;
   font-size: 1.4rem;
   line-height: 1.5;
-  background-color: whitesmoke;
+  background-image: url(../images/paper);
 }
 body,
 input,
@@ -209,12 +209,17 @@ textarea {
 }
 a {
   font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
-  color: #d93419;
+  color: #666;
   text-decoration: none;
 }
+
+article a{
+  color: #FF4444;
+}
+
 a:hover,
 a:focus {
-  color: #33B5E5;
+  color: #CC0000;
   text-decoration: none;
 }
 a:focus {
@@ -4815,10 +4820,6 @@ section {
   margin: 0 0 2em 0;
 }
 
-article a {
- color: #0099CC;   
-}
-
 article h3 {
   border-bottom: 1px dashed #ddd;
   padding-bottom: 10px;
@@ -5301,7 +5302,7 @@ article > ul{
 }
 
 article > ul > li{
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .sidebar .nav-list .visible-phone > .active > a,

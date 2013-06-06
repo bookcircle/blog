@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
     	<title>{% if page.title != "Home" %}
-                    {{ page.title }}
+                    {{ page.title }} - 
                 {% endif %}
 				{{ site.title }}
 		</title>
@@ -64,7 +64,7 @@
 					<div class="page-header">
 						<div class="media havatar" style="margin-bottom:0px;">
 							<a class="pull-left media-object">
-								<img src="/assets/themes/twitter/images/avatar.jpg" style="display:block; margin:0 auto;"></a>
+								<img src="/assets/themes/twitter/images/avatar.png" style="display:block; margin:0 auto;"></a>
 						</div>
 						<div class="media-body" style="margin-top:15px; text-align:center">
 							<a href="{{ HOME_PATH }}">
