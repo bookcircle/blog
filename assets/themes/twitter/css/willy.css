@@ -5377,7 +5377,8 @@ transition: transform 0.4s ease-out;/*变化时间设置为0.4秒(变化动作�
 
 .facebook ul li{
 	padding: 40px 0px 0px 0px ;
-	width: 430px;
+	width: 50%;
+	min-width: 400px;
 	height: 150px;
 	float: left;
 }
