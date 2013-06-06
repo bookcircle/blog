@@ -16,7 +16,7 @@ group: navigation
 							<div class="info">
 								<div class="name">
 									<p>tinyao</p>
-									<a href="http://czzz.org" class="iconBlogCircle" title="Blog"></a>
+									<a href="http://czzz.org" class="iconMailCircle" title="Blog"></a>
 									<a href="http://weibo.com/yaochz" class="iconWeiboCircle"></a>
 								</div>
 								<p class="desc">
@@ -32,7 +32,7 @@ group: navigation
 							<div class="info">
 								<div class="name">
 									<p>Zxming</p>
-									<a href="#" class="iconBlogCircle" title="Blog"></a>
+									<a href="#" class="iconMailCircle" title="Blog"></a>
 									<a href="http://weibo.com/879031788" class="iconWeiboCircle"></a>
 								</div>
 								<p class="desc">
@@ -48,7 +48,7 @@ group: navigation
 							<div class="info">
 								<div class="name">
 									<p>ibird</p>
-									<a href="#" class="iconBlogCircle" title="Blog"></a>
+									<a href="#" class="iconMailCircle" title="Blog"></a>
 									<a href="#" class="iconWeiboCircle"></a>
 								</div>
 								<p class="desc">

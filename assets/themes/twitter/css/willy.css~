@@ -5265,8 +5265,13 @@ border: 1px solid #C83D20;
 }
 
 #sub-nav .social a.ren {
-background: url('../images/ren.png') center no-repeat #C83D20;
-border: 1px solid #C83D20;
+background: url('../images/ren.png') center no-repeat #58a;
+border: 1px solid #58a;
+}
+
+#sub-nav .social a.app {
+background: url('../images/app.png') center no-repeat #C83D20;
+border: 1px solid #;
 }
 
 #sub-nav .social a.github {
@@ -5356,4 +5361,106 @@ transition: transform 0.4s ease-out;/*变化时间设置为0.4秒(变化动作�
 /*transform: rotateZ(360deg);/*图像旋转360度*/
 /*-webkit-transform: rotateZ(360deg);*/
 /*-moz-transform: rotateZ(360deg);*/
+}
+
+
+.facebook{
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;   
+}
+
+.facebook ul{ 
+	list-style: none;
+	margin-left: 0px;
+	margin-bottom: 50px;
+}
+
+.facebook ul li{
+	padding: 40px 0px 0px 0px ;
+	width: 50%;
+	height: 150px;
+	float: left;
+}
+
+.facebook ul li .card{
+	width: 380px;
+	height: 150px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	background: #fff;
+}
+
+.facebook ul li .card .photo{
+	width: 150px;
+	height: 150px;
+	float: left;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.facebook ul li .card .info{
+	width: 190px;
+	height: 150px;
+	padding-left: 20px;
+	float: left;
+}
+
+.facebook ul li .card .info .name{
+	line-height: 24px;
+	height: 24px;
+	padding-top: 30px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.facebook ul li .card .info .name p{
+	float: left;
+}
+
+.facebook ul li .card .info .name a{
+	display: block;
+	float: right;
+	margin-left: 10px;
+}
+
+.facebook ul li .card .info .desc{
+	padding-top: 20px;
+	line-height: 22px;
+	width: 180px;
+	font-size: 13px;
+	color: #686868;
+}
+
+.facebook ul li .card .info .work {
+	padding-top: 10px;
+	line-height: 22px;
+	width: 180px;
+	font-size: 13px;
+	color: #686868;
+}
+
+.iconBlogCircle{
+	background: url('../images/team_blog.png') center no-repeat #33B5E5;
+	width: 24px;
+	height: 24px;
+	border-radius: 17px;
+	opacity: 0.4;
+}
+
+.iconWeiboCircle{
+	background: url('../images/weibo.png') center no-repeat #33B5E5;
+	width: 24px;
+	height: 24px;
+	border-radius: 17px;
+	opacity: 0.4;
+}
+
+.facebook a:hover{
+    opacity: 1;
+}
+
+.iconRiceCircle {
+	background: url('../images/icons.png') no-repeat -243px 0;
+	width: 24px;
+	height: 24px;
 }
