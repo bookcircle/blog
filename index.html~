@@ -2,7 +2,6 @@
 layout: page
 title: 首页
 header : 
-group: navigation
 weight : 5
 ---
 {% include JB/setup %}
@@ -11,7 +10,7 @@ weight : 5
 	<article id="main_content">
         <h3>书圈是什么</h3>
 
-<p>书圈，是一款以个人藏书管理分享为核心，以高校划分圈子的移动APP。为书友提供分享交流的平台。（HOLO风格，兼容Android2.2+）</p>
+<p>书圈(<a href="http://bookcircle.us">http://bookcircle.us</a>)，是一款以个人藏书管理分享为核心，以高校划分圈子的移动APP。为书友提供分享交流的平台。（HOLO风格，兼容Android2.2+）</p>
 
 <p>书圈，通过分享个人藏书与心得，将同一高校的书友聚集起来，构建图书圈子。这个圈子也即是一个书库。基于这样一种形式，可以帮助书友建立联系，从线上交流走到线下交流或交易。此外，借助藏书的标签性功能，一定程度上可以体现用户性格喜好，由此促进书友间形成良好的社交关系。<a href="http://m.czzz.org/2012/12/25/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%81%9A%E4%B9%A6%E5%9C%88/">更多...</a></p>
 
@@ -38,7 +37,9 @@ weight : 5
 
 <h3 id="feedback" style="margin-top:50px; margin-bottom:30px;">意见反馈</h3>
 
-        <div id="disqus_thread"></div>
+      </article>
+
+<div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'bookcircle'; // required: replace example with your forum shortname
@@ -53,8 +54,6 @@ weight : 5
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-
-      </article>
 </div>
 
 <!-- Scripties -->
