@@ -696,6 +696,7 @@ pre code {
 	height: 100%;
     position: fixed;
  	background: #2f2f2f;
+ 	background-image: url(../images/side_panel.png);
   }
   .span2 {
     width: 16.666666666666664%;
@@ -4748,6 +4749,12 @@ a {
   border-right: 0;
   border-left: 0;
   color: #777;
+}
+
+.phone-side {
+    background-image: url(../images/side_panel.png);
+	margin-top: -30px; 
+	padding-top: 20px;
 }
 
 .hidden-phone .nav-list > .active > a,

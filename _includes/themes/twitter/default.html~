@@ -49,8 +49,8 @@
 				<div class="span3 sidebar hidden-phone">
 					<div class="page-header">
 						<div class="media havatar">
-							<a class="pull-left media-object">
-								<img src="/assets/themes/twitter/images/avatar.png" style="display:block; margin:0 auto;"></a>
+							<a class="pull-left media-object" href="/">
+								<img src="http://pic.yupoo.com/bookcircle_v/CUPJFEdS/5Iqyh.png" style="display:block; margin:0 auto;"></a>
 						</div>
 					</div>
 					<ul class="nav nav-list">
@@ -60,13 +60,13 @@
 					</ul>
 				</div>
 
-				<div class="span3 sidebar visible-phone" style="margin-top: -30px; padding-top: 20px; background: #2f2f2f">
+				<div class="span3 sidebar visible-phone phone-side" style="margin-top: -30px; padding-top: 20px; background-image: url("../images/side_panel.png");">
 					<div class="page-header">
 						<div class="media havatar" style="margin-bottom:0px;">
-							<a class="pull-left media-object">
-								<img src="/assets/themes/twitter/images/avatar.png" style="display:block; margin:0 auto;"></a>
+							<a class="pull-left media-object" href="/">
+								<img src="http://pic.yupoo.com/bookcircle_v/CUPJFEdS/5Iqyh.png" style="display:block; margin:0 auto;"></a>
 						</div>
-						<div class="media-body" style="margin-top:15px; text-align:center">
+						<div class="media-body" style="text-align:center">
 							<a href="{{ HOME_PATH }}">
 						    <h3 class="media-heading" style="text-align: center">{{ site.title }}</h3>						</a>
 						</div>
